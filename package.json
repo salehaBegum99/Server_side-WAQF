@@ -1,0 +1,30 @@
+{
+  "name": "server-side",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index1.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/salehaBegum99/Server_side-WAQF.git"
+  },
+  "author": "saleha_SDE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salehaBegum99/Server_side-WAQF/issues"
+  },
+  "homepage": "https://github.com/salehaBegum99/Server_side-WAQF#readme",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.8",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.3",
+    "nodemon": "^3.1.7",
+    "proxy": "http://localhost:5173"
+
+  }
+}
