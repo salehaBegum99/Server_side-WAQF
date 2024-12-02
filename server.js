@@ -27,7 +27,18 @@ mongoose
 
 // API Routes
 app.use("/api/properties", propertyRoutes);
+app.put('/api/properties/:id', async (req, res) => {
+  const { id } = req.params;
+  // Your update logic here
+  res.status(200).send(updatedProperty);
+});
 app.use("/api/tasks", taskRoutes);
+app.put('/api/tasks/:id', async (req, res) => {
+  const { id } = req.params;
+  // Your update logic here
+  res.status(200).send(updatedTask);
+});
+
 
 // Start the Server
 const PORT = 5000;
